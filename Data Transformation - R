@@ -1,7 +1,9 @@
 # 1. Rideable bike and type of member 
 
+```r
 rides_merged %>% count(type_member) 
-rides_merged %>% count(type_casual) 
+rides_merged %>% count(type_casual)
+```
 # it return the number of register of each of the two types of users, casual: 2546542, member: 3176990
 
 rideable_type <- rides_merged %>% count(rideable_type, member_casual) 
