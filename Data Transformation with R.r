@@ -1,3 +1,5 @@
+library(tidyverse)
+
 # 1. Rideable bike and type of member 
 
 rides_merged %>% count(type_member) 
